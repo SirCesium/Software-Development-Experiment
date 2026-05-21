@@ -2,7 +2,7 @@
 
 ## 1. 项目简介
 
-本仓库为 Software Development 课程实验合集，共包含四个实验目录：
+本仓库为 XJTU CS Software Development 2026 课程实验合集，共包含四个实验目录：
 
 - `exp1`：Rainfall Alert System
 - `exp2`：SCS-CN Runoff Model

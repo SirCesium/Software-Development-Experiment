@@ -1,0 +1,32 @@
+Experiment 4 Flood Inundation Validation Report
+=======================================================
+DEM shape: (100, 100)
+Minimum elevation: 30.00 m
+Maximum elevation: 80.00 m
+
+Water level simulation:
+- 40.0 m: 5.50% flooded (550/10000 cells)
+- 41.0 m: 7.17% flooded (717/10000 cells)
+- 42.0 m: 8.96% flooded (896/10000 cells)
+- 43.0 m: 11.40% flooded (1140/10000 cells)
+- 44.0 m: 14.22% flooded (1422/10000 cells)
+- 45.0 m: 17.03% flooded (1703/10000 cells)
+- 46.0 m: 20.70% flooded (2070/10000 cells)
+- 47.0 m: 24.51% flooded (2451/10000 cells)
+- 48.0 m: 28.76% flooded (2876/10000 cells)
+- 49.0 m: 32.59% flooded (3259/10000 cells)
+- 50.0 m: 36.18% flooded (3618/10000 cells)
+
+Physical validation checks:
+1. Flooded area increases monotonically with water level: True
+2. Maximum depth equals water_level - min_elevation at 50 m: True
+   Expected max depth: 20.0000 m
+   Actual max depth: 20.0000 m
+3. Flooded percentage is between 0 and 100%: True
+4. Water below minimum elevation floods 0%: True
+5. Water above maximum elevation floods 100%: True
+
+Conclusion:
+All validation checks pass. The DEM comparison logic is physically consistent:
+cells with elevation below the water level are flooded, water depth is non-negative,
+and flooded area expands as water level rises.

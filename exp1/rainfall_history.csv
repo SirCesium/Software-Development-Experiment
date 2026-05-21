@@ -1,0 +1,15 @@
+time,city,rainfall_mm_h,alert,source
+2026-05-21 18:17:13,Beijing,0.0,绿色,OpenWeatherMap 实时接口
+2026-05-21 18:20:00,Shanghai,0.0,绿色,OpenWeatherMap 实时接口
+2026-05-21 18:20:00,Guangzhou,0.3,绿色,OpenWeatherMap 实时接口
+2026-05-21 18:31:46,Beijing,0.0,绿色,OpenWeatherMap 实时接口
+2026-05-21 18:39:49,Amoy,0.18,绿色,OpenWeatherMap 实时接口
+2026-05-21 18:40:37,Beijing,0.0,绿色,OpenWeatherMap 实时接口
+2026-05-21 18:46:53,Beijing,0.0,绿色,OpenWeatherMap 实时接口
+2026-05-21 18:46:58,Amoy,0.16,绿色,OpenWeatherMap 实时接口
+2026-05-21 18:52:07,Beijing,0.0,绿色,OpenWeatherMap 实时接口
+2026-05-21 18:52:11,Xiamee,21.0,红色,本地示例数据
+2026-05-21 18:52:15,Amoy,0.21,绿色,OpenWeatherMap 实时接口
+2026-05-21 18:57:28,Beijing,0.0,绿色,OpenWeatherMap 实时接口
+2026-05-21 19:02:28,Beijing,0.0,绿色,OpenWeatherMap 实时接口
+2026-05-21 19:07:30,Beijing,0.0,绿色,OpenWeatherMap 实时接口

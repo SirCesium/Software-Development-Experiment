@@ -45,7 +45,7 @@ python -m streamlit run weather_monitor.py
 | 备用效果截图 | `dashboard_screenshot.png` | 早期生成的仪表盘效果截图，作为备用展示文件；正式提交和 README 说明优先参考 `Screenshot/` 文件夹。 |
 | 测试与验证记录 | `testing_validation.md` | 对应 Part 4，记录城市对比、阈值测试、红色告警日志检查和物理合理性分析。 |
 
-## 4. 任务文档 Deliverables 对应关系
+## 4. 任务文档对应关系
 
 | 文档 Deliverable | 本项目文件 |
 | --- | --- |
@@ -95,26 +95,3 @@ exp1/
 - 使用示例数据 `21.0 mm/h` 成功触发红色告警，并写入 `alert_log.txt`。
 - 阈值边界 `0.0`、`9.9`、`10.0`、`19.9`、`20.0` 已测试通过。
 - 详细记录见 `testing_validation.md`。
-
-## 8. GitHub 上传说明
-
-建议上传：
-
-- `weather_monitor.py`
-- `alert_log.txt`
-- `prompt_log.md`
-- `testing_validation.md`
-- `manual_records.md`
-- `final_deliverables.md`
-- `requirements.txt`
-- `rainfall_history.csv`
-- `find_rainy_cities.py`
-- `dashboard_screenshot.png`
-- `Screenshot/`
-- `README.md`
-
-不建议上传：
-
-- `.streamlit/secrets.toml`，因为其中包含完整 OpenWeatherMap API Key。
-- `__pycache__/`
-- `*.log`

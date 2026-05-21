@@ -1,0 +1,23 @@
+Experiment 3 Reservoir Optimization Validation Report
+==========================================================
+Optimization success: True
+Optimizer message: Optimization terminated successfully. (HiGHS Status 7: Optimal)
+
+Optimal releases (m3/s): 10.00, 11.21, 10.00, 10.00, 10.00, 25.42, 18.00
+Storage trajectory (m3): 500000.00, 932000.00, 1000000.00, 1000000.00, 827200.00, 1000000.00, 100000.00, 100000.00
+Total revenue (USD): 45,763.54
+Ecological deficit ((m3/s)-day): 0.0000
+
+Constraint checks:
+1. Release >= Q_eco (10.0 m3/s): True
+2. Release <= Q_max (100.0 m3/s): True
+3. Storage >= V_min (100000 m3): True
+4. Storage <= V_max (1000000 m3): True
+5. Daily mass balance satisfied: True
+   Maximum balance error: 0.00000000 m3
+6. Revenue calculation verified: True
+
+Conclusion:
+All physical constraints are satisfied. The optimal schedule maintains the
+minimum ecological release while shifting additional release to higher-price
+days as much as storage constraints allow.
